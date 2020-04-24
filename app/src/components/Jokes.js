@@ -13,12 +13,15 @@ const Jokes = () => {
 	}, []);
 
 	return (
-		<div className="jokes-list">
-			{jokes.map(({ joke, id }) => (
-				<div key={id} className="joke">
-					{joke}
-				</div>
-			))}
+		<div className="jokes-page">
+			<div className="jokes-list">
+				<h1>Jokes</h1>
+				{jokes.map(({ joke, id }) => (
+					<div key={id} className="joke">
+						{joke}
+					</div>
+				))}
+			</div>
 		</div>
 	);
 };

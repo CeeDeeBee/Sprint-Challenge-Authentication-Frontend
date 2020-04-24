@@ -4,7 +4,7 @@ import { Route } from "react-router-dom";
 import PrivateRoute from "./components/PrivateRoute";
 import SignUpLogin from "./components/SignUpLogin";
 import Jokes from "./components/Jokes";
-import "./App.css";
+import "./App.scss";
 
 function App() {
 	return (
